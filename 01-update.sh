@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 
 echo -e "atualizando as listas do app"              
     apt update
@@ -7,7 +8,7 @@ echo -e "atualizando os softwares"
      apt -y upgrade
 
 echo -e "atualização do sistema"
-      apt -y full upgrade 
+      apt -y full-upgrade 
 
 echo -e "forçando atualização de segurança"
       apt -y dist-upgrade
