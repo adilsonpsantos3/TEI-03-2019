@@ -1,5 +1,7 @@
 #!/bin/bash
 
+clear
+
 echo -e "atualizando as listas do app"              
     apt update
 
