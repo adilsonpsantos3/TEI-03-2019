@@ -18,7 +18,7 @@ echo -e  "removendo software desnecessários"
       apt -y autoclean
       apt -y clean
 
-echo -e "sistema atualizado pressione <enter> reiniciar"
+echo -e "sistema atualizado pressione <enter> p/ reiniciar"
 read
 sleep 5
 reboot
