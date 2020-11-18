@@ -8,7 +8,7 @@ echo -e "atualizando os softwares"
      apt -y upgrade
 
 echo -e "atualização do sistema"
-      apt -y full-upgrade 
+     apt -y full-upgrade 
 
 echo -e "forçando atualização de segurança"
       apt -y dist-upgrade
@@ -18,7 +18,7 @@ echo -e  "removendo software desnecessários"
       apt -y autoclean
       apt -y clean
 
-echo -e "sistema atualizado precione <enter> reiniciar"
+echo -e "sistema atualizado pressione <enter> reiniciar"
 read
 sleep 5
 reboot
